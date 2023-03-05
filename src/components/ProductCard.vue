@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import BaseRating from "@/components/BaseRating.vue";
-
 defineProps<{
   product: {
     brand?: string;
