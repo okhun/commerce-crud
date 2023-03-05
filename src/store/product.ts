@@ -16,7 +16,7 @@ export const useProductStore = defineStore("product", {
     products: [] as Product[],
     product: {} as Product | undefined,
     isLoading: false,
-    loading: { all: true, one: true },
+    loading: { all: false, one: true },
     total: 0,
   }),
   getters: {
